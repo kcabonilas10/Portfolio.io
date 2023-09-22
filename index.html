@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1,0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="Style.css">
+        <script src="https://kit.fontawesome.com/8aaeb584b1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <div id="header">
+        <div class="container">
+        <nav>
+            <img src="./image/marvel.JPEG"class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Web Development</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>KYLE O. CABONILAS</p>
+            <h1>Hi, Welcome to <br>my <span>Portfolio</span></h1>
+        </div>
+      </div>
+      
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="./image/user.JPG" alt="user">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm a Student in University of the immaculate conception,
+                            2nd year student of Bachelor Science in Information Technology 
+                         </p>
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('Education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                                <li><span>WEB DEVELOPMENT</span><br>Web app Development</li>
+                                <li><span>APP DEVELOPMENT</span><br>Building Android/iOS</li>
+                            </ul>
+                            </div>
+                            <div class="tab-contents active-tab" id="Education">
+                                <ul>
+                                    <li><span>ELEMENTARY</span><br>Buhangin Central Elementary School</li>
+                                    <li><span>HIGH SCHOOL</span><br>Davao City National High School</li>
+                                    <li><span>COLLEGE</span><br>University of the Immaculate Conception</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Web Development">
+            <div class="container">
+                <h1 class="sub-title">Web Development</h1>
+                <div class="WebDevelopment-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Davies Burger</h2>
+                        <p>Our BBQ Bacon Burger features our special house ground blend of wagyu and sirloin, 
+                            spiced perfectly, and finished off with just a drop of white truffle oil. 
+                            A butter grilled brioche bun layered with roasted red onion, perfectly crispy pork belly, 
+                            and our hickory smoked BBQ sauce</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>FashionBlog</h2>
+                        <p>"An Insider Guide to NYFW: Get the inside scoop on attending 
+                            New York Fashion Week, from securing tickets and planning your schedule to dressing comfortably 
+                            and expressing your personal style. 
+                            Let's make your first NYFW unforgettable!"</p>
+                        <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                <h2>Winefestival</h2>
+                        <p>Annual wine festivals celebrate viticulture and 
+                            usually occur after the harvest of the grapes which, 
+                            in the northern hemisphere, generally falls at the end of 
+                            September and runs until well into October or later.</p>
+                        <a href="#">Learn more</a>
+            </div>
+        </div>
+  
+<! - -  - - - - - - - - - - portfolio - - - - - - - - - - - -  - - >
+        <div id="portfolio">
+            <div class="container">
+            <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./image/image1.JPG" alt="Image 1">
+                    
+                        <div class="layer">
+                            <h3>Davies Burger</h3>
+                            <p></p>
+                                <a href="https://kcabonilas10.github.io/DaviesBurger.io/">Click<i></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./image/image2.JPEG" alt="Image 2">
+                        <div class="layer">
+                            <h3>FashionBlog</h3>
+                            <p></p>
+                                <a href="https://kcabonilas10.github.io/FashionBlog.io/"><i>Click</i></a>
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="./image/image3.JPEG" alt="Image 3">
+                    <div class="layer">
+                        <h3>Winefestival</h3>
+                        <p></p>
+                            <a href="https://kcabonilas10.github.io/Winefestival.io/"><i>Click</i></a>
+                    </div>
+                </div>
+                    <div class="work">
+                        <img src="https://media.istockphoto.com/id/1342223620/photo/unrecognizable-afro-american-businessman-checking-family-expenses-using-digital-tablet.jpg?s=612x612&w=0&k=20&c=Etp5M7r8I-ZSEghJlvA7jY5mXSxYUPcBYpwmQ-n4rgo=" alt="">
+                        <div class="layer">
+                            <h3>Financial Tracker</h3>
+                            <p></p>
+                                <a href="https://kcabonilas10.github.io/Prelim.io/"><i>Click</i></a>
+                </div>
+                </div>
+                    <a href="https://www.facebook.com/kyle.cabonilas/" class="btn">Facebook</a> <a href="https://twitter.com/?lang=en" class="btn">Twitter</a>
+            </div>
+           
+        </div>
+
+        
+
+
+        <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+        </script>
+
+        
+
+    </body>
+    </html>
